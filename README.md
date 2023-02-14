@@ -6,7 +6,7 @@ User supplied Vars and Env config @
 - AWS/terraform.tfvars
 - AWS/env_module/env_vars.tf
 
-Provision your Application using bash @
+Configure your Application using bash @
 - AWS/autoscaling_module/userdata.sh
 
 ## AZURE
