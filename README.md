@@ -14,3 +14,6 @@ Configure your Application using bash @
 
 ## GCP
 *Coming*
+
+
+#### Note: The environment used corresponds to the name of your Terraform Workspace
