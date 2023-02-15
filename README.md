@@ -9,11 +9,14 @@ User supplied Vars and Env config @
 Configure your Application using bash @
 - AWS/autoscaling_module/userdata.sh
 
+
 ## AZURE
 *Coming*
 
+
 ## GCP
 *Coming*
+
 
 
 #### Note: The environment used corresponds to the name of your Terraform Workspace
