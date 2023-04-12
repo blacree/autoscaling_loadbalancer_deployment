@@ -1,5 +1,5 @@
-# autoscaling_loadbalancer_deployment
-Dynamic Application Deployment using Autoscaling and Loadbalancer with Environment configuration (Default, staging and production)
+# Autoscaling_Loadbalancer_Application_Deployment
+Application Deployment using Autoscaling and Application Loadbalancer with Environment configuration (default, staging and production)
 
 ## AWS
 User supplied Vars and Env config @
@@ -19,4 +19,4 @@ Configure your Application using bash @
 
 
 
-#### Note: The environment used corresponds to the name of your Terraform Workspace
+#### Note: The environment used corresponds to the name of your Terraform Workspace which should be 'default', 'staging' or 'production'
