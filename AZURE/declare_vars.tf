@@ -1,3 +1,5 @@
+# Do not pass values here. Pass your values in terraform.tfvars file
+
 # vmss variables
 variable admin_username {}
 variable ssh_pub_key_name {}
