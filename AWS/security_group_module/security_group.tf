@@ -1,11 +1,3 @@
-variable lb_sg_name {}
-variable ag_sg_name {}
-variable lb_sg_description {}
-variable ag_sg_description {}
-variable vpc_id {}
-variable application_port {}
-variable "protocol_name" {}
-
 resource "aws_security_group" "lb_sg" {
     name = var.lb_sg_name
     description = "${var.lb_sg_description} - ${var.lb_sg_name}"

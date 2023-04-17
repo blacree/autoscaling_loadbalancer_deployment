@@ -4,14 +4,19 @@ Application Deployment using Autoscaling and Application Loadbalancer with Envir
 ## AWS
 User supplied Vars and Env config @
 - AWS/terraform.tfvars
-- AWS/env_module/env_vars.tf
+- AWS/env_module/env.tf
 
 Configure your Application using bash @
 - AWS/autoscaling_module/userdata.sh
 
 
 ## AZURE
-*Coming*
+User supplied Vars and Env config @
+- AZURE/terraform.tfvars
+- AZURE/env_module/env.tf
+
+Configure your Application using bash @
+- AZURE/vmss_module/custom_data.sh
 
 
 ## GCP
